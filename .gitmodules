@@ -54,3 +54,6 @@
 [submodule "bundle/jedivim"]
 	path = bundle/jedivim
 	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "bundle/flake8"]
+	path = bundle/flake8
+	url = https://github.com/andviro/flake8-vim.git
