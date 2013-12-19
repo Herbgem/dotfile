@@ -57,3 +57,6 @@
 [submodule "bundle/flake8"]
 	path = bundle/flake8
 	url = https://github.com/andviro/flake8-vim.git
+[submodule "bundle/bundle/vim-flake8"]
+	path = bundle/bundle/vim-flake8
+	url = https://github.com/nvie/vim-flake8.git
