@@ -60,3 +60,9 @@
 [submodule "bundle/bundle/vim-flake8"]
 	path = bundle/bundle/vim-flake8
 	url = https://github.com/nvie/vim-flake8.git
+[submodule "bundle/bundle/vimflake8"]
+	path = bundle/bundle/vimflake8
+	url = https://github.com/nvie/vim-flake8.git
+[submodule "bundle/vimflake8"]
+	path = bundle/vimflake8
+	url = https://github.com/nvie/vim-flake8.git
