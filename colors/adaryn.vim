@@ -6,7 +6,7 @@ endif
 
 let colors_name = "adaryn"
 
-hi Normal   guifg=#fffff0 guibg=#00003F ctermfg=white ctermbg=Black
+hi Normal   guifg=#fffff0 guibg=Black ctermfg=white ctermbg=Black
 hi ErrorMsg guifg=#ffffff guibg=#287eff	ctermfg=white ctermbg=red
 hi Visual   guifg=#8080ff guibg=fg gui=reverse ctermfg=blue ctermbg=fg cterm=reverse
 

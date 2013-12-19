@@ -51,3 +51,6 @@
 	url = https://github.com/sontek/rope-vim.git
 [submodule "bundle/sensiblevim"]
 	path = bundle/sensiblevim
+[submodule "bundle/jedivim"]
+	path = bundle/jedivim
+	url = https://github.com/davidhalter/jedi-vim.git
