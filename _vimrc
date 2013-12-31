@@ -3,6 +3,8 @@ syntax enable
 syntax on
 filetype on
 filetype plugin indent on
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
 set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
@@ -35,5 +37,14 @@ endfunction
 
 cd F:\python\practices
 map <leader>td <Plug>TaskList
+
+map <F5> :w !python<CR> 
+
 let g:SuperTabDefaultCompletionType = "<c-n>"
+
 colorscheme adrian
+
+let g:pydoc_cmd='python -m pydoc'
+
+au FileType python set omnifunc=pythoncomplete#Complete
+let g:SuperTabDefaultCompletionType = "context"
