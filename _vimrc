@@ -45,6 +45,6 @@ let g:SuperTabDefaultCompletionType = "<c-n>"
 colorscheme adrian
 
 let g:pydoc_cmd='python -m pydoc'
-
+au GUIEnter * simalt ~x
 au FileType python set omnifunc=pythoncomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
