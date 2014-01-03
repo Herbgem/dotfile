@@ -67,3 +67,6 @@
 [submodule "bundle/sensiblevim"]
 	path = bundle/sensiblevim
 	url = https://github.com/tpope/vim-sensible.git
+[submodule "bundle/pyflakes"]
+	path = bundle/pyflakes
+	url = https://github.com/kevinw/pyflakes-vim.git

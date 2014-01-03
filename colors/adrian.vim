@@ -24,6 +24,7 @@ highlight Special    term=bold      ctermfg=Magenta                    guifg=Ora
 highlight Ignore                    ctermfg=black                      guifg=bg
 highlight Error                     ctermfg=White      ctermbg=Red     guifg=White    guibg=Red
 highlight Todo                      ctermfg=Blue       ctermbg=Yellow  guifg=Blue     guibg=Yellow
+highlight Pmenu guibg=blue guifg=green
 
 " Change the highlight of search matches (for use with :set hls).
 highlight Search                    ctermfg=Black      ctermbg=Yellow  guifg=Black    guibg=Yellow  
