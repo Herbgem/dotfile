@@ -36,14 +36,22 @@ function MyDiff()
 endfunction
 
 cd F:\python\practices
-map <leader>td <Plug>TaskList
 
+map <leader>td <Plug>TaskList
 map <F5> :w !python<CR> 
+map <F9> :TlistOpen<CR>
 
 let g:SuperTabDefaultCompletionType = "<c-n>"
 
 colorscheme adrian
-
+let Tlist_Ctags_Cmd = 'C:\Users\morga_000\vimfiles\ctags58\ctags.exe'
+let Tlist_Process_File_Always = 1
+let Tlist_Show_Menu = 1
+let Tlist_Use_Right_Window = 1
+let Tlist_Close_On_Select = 1
+let Tlist_Exit_OnlyWindow = 1
+let Tlist_Show_One_File = 1
+let Tlist_Auto_Update = 1
 let g:pydoc_cmd='python -m pydoc'
 au GUIEnter * simalt ~x
 au FileType python set omnifunc=pythoncomplete#Complete
@@ -53,3 +61,4 @@ let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1 
 let g:miniBufExplMapCTabSwitchBufs = 1 
 let g:miniBufExplModSelTarget = 1 
+let g:SuperTabDefaultCompletionType = "<c-n>"
